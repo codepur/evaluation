@@ -1,0 +1,322 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+ .header-links{
+    display: none;
+ }
+ .header-logo{
+    display: none;
+ }
+ .menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px 0px;
+ }
+ .banner-head{
+    position: relative;
+ }
+ nav{
+    display: none;
+    padding: 0 2rem; 
+ }
+ nav ul{
+    display: flex;
+    flex-direction: column; 
+    background-color: #0e3151;
+    border-bottom:2px solid white ;
+    padding: 17px;
+ }
+ nav ul li {
+    list-style-type: none;
+    border-bottom: 1px solid grey;
+    padding: 2px 0; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    padding: 0 15px;
+}
+.stats{
+    flex-wrap: wrap;
+    padding: 2rem 0rem ;
+}
+.stats-content {
+    display: flex;
+    padding: 5px;
+}
+.stats-logo{
+    width: 32%;
+}
+.stats-logo img {
+    width: 100%;
+}
+
+.about {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.about-content {
+    width: 100%;
+    padding: 10%;
+}
+.about-img {
+    width: 100%;
+    display: flex;
+    padding: 0 8%;
+}
+.about-content h5{
+    font-size: 15px;
+}
+.about-content h1{
+    font-size: 35px;
+}
+.about-content p{
+    font-size: 13px;
+}
+
+.product {
+    /* padding-bottom: 3%; */
+    padding: 4%;
+}
+.product-head h1 {
+    color: #282828;
+    font-family: Lato;
+    font-size: 27px;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 33px;
+
+}
+.product-head p{
+    padding: 2% 0;
+}
+.product-imgcontainer {
+    display: flex;
+    padding: 4%;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    margin: 2% 1%;
+}
+.image-indicator{
+    padding: 5%;
+}
+
+
+.leadership h1{
+    font-size: 39px;
+}
+.leader-profile {
+    flex-wrap: wrap;
+}
+.leader-card{
+    margin: 3%;
+}
+
+.network{
+    padding: 9% 0;
+}
+.network h1 {
+    font-size: 31px;
+    padding: 2%;
+}
+.map img {
+    max-width: 100%;
+    padding: 0 0 4% 0;
+}
+
+.initiative {
+    flex-wrap: wrap;
+}
+.initiative-content {
+    width: 100%; 
+    padding-right: 2%;
+}
+.initiative-imgConatainer {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.edge {
+    background-size: cover;
+}
+.edge-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10% 0%;
+}
+.edge-card {
+    padding: 10%;
+    margin-bottom: 5%;
+}
+
+.event-container {
+    padding: 10% 0;
+    flex-wrap: wrap;
+}
+.event {
+    position: relative;
+    width: 100%;
+    margin: 4% 1%;
+}
+
+
+.grow h1 {
+    font-size: 34px;
+    margin: 5% 0px;
+}
+
+.company{
+    display: none;
+}
+.factory {
+    flex-wrap: wrap;
+    margin: 10% 0;
+}
+.factory-content {
+    width: 100%;
+    padding: 4%;
+    margin-left:0px;
+}
+.factory-content h3 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-style:normal;
+
+}
+.factory-content p {
+    font-size: 12px;
+    line-height: 28px;
+}
+.factory-content h4 {
+    padding-top: 4%;
+}    
+
+.trending h1 {
+    font-size: 40px;
+}
+.trend-container {
+    flex-wrap: wrap;
+    padding: 4% 0;
+}
+.trend-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+.trend-img {
+    padding: 7%;
+    width: 6rem;
+    margin-bottom: 1%;
+}
+.trend-img img {
+    width: 3rem;
+}
+.trend-content h5 {
+     font-size: 18px;
+    line-height: 29.15px;
+}
+.trend-content p {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 3%;
+}
+#fname {
+    margin: 1%;
+    width: 100%;
+}
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.phone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+textarea#subject {
+    width: 100%;
+  }
+.submit_button{
+    width: 100%;
+}  
+.touch-head h1{
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+.touch-container {
+    padding: 9%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.client h1 {
+    font-size: 37px;
+}
+.clients {
+    flex-wrap: wrap;
+}
+.client-box {
+    width: 160px;
+    height: 80px;
+}
+
+.newsletter {
+    padding: 5% 11%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.newsletter-content {
+    width: 100%;   
+    font-size: 100%;
+    margin-bottom: 3%;
+}
+.form {
+    width: 90%;
+}
+.envolope1 {
+    margin-right: 5%;
+}
+
+.footer {
+    flex-wrap: wrap;
+}
+.footer-addr {
+    width: 100%;
+}
+.footer-nav{
+    width: 100%;
+    flex-wrap : wrap;
+    padding: 6% 0 6% 10%;
+}
+.nav-item{
+ width : 100%;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+ .header-logo{
+    display: none
+ }
+ .stats-content{
+    flex-wrap: wrap;
+ }
+  
+}
+
